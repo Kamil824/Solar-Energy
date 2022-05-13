@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'El Messiri', sans-serif;
+    box-sizing: border-box;
+    color: aliceblue;
+
+}
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(images/sun.png);
+    height: auto;
+    background-size: cover;
+    
+}
+
+.nav-area {
+    float:right;
+    list-style: none;
+    margin-top: 20px;
+    padding: 10px;
+    display:flex;
+    justify-content: right;
+    flex-direction: row;
+    font-family: 'El Messiri', sans-serif;
+}
+.nav-area li {
+    display:flex;
+    justify-content: right;
+    flex-direction: row;
+}
+.nav-area li a{
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    background-color: rgba(52, 25, 172, 0.2);
+    color: rgb(255, 255, 255);
+    transform: scale(1.04);
+    transition: all 0.2s ease;
+}
+
+.logo img{
+    width: 70px;
+    float: left;
+    padding-left: 0%;
+    padding-top: 0%;
+}
+ 
+.welcome-text{
+    display:flex;
+    flex-direction: column;
+    align-content:flex-end;
+
+
+}
+
+.welcome-text h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+    display: flex;
+    text-align: left;
+
+}
+
+.welcome-text p{
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    position:relative; left:10%; top:0px;
+    
+}
+
+.welcome-text h6{
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    position:relative; left:-15%; top: -37px;
+    
+}
+
+.head h2{
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 35px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    color:#fff;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 280px;
+    height: auto;
+    margin:10px;
+    border-radius: 15px;
+    
+}
+
+.card-image {
+    height: 187px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+
+}
+ .solar-2 {
+     background-image: url('./images/fotovoltaic.jpg');
+
+ }
+
+ .solar-3 {
+     background-image: url('./images/solarbatterystorage.jpg');
+     
+
+ }
+
+ .solar-1 {
+    background-image: url('./images/sunnyinnit.jpg');
+
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: rgba(255, 0, 0,0.4);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+} 
+
+.card:hover {
+    background-color: rgba(52, 25, 172, 0.2);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.5s ease;
+
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.heads {
+    background: rgba(116, 116, 116,0.2);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.heads:hover {
+    background-color: rgba(52, 25, 172, 0.2);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.5s ease;
+
+}
+.welcome-text h3{
+    color:#fff;
+    display: flex;
+    justify-content: right;
+    float: right;
+    text-align: center;
+    font-size: 27px;
+    right: 0px;
+    position:relative; left:10%; top:0px;
+ 
+
+}
+
+.contact-section{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-section h4{
+    text-align: center;
+    color: #ddd;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+
+}
+
+.contact-form-text:hover:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+
+
+
+
+.testimonial{
+    padding: 30px 100px;
+
+}
+
+
+.testimonial img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
+    position:relative; left:40%; top:-107px;
+
+}
+
+.testimonial h1{
+    position:relative; left:43%; top:-40px;
+    
+}
+
+.testimonial h5{
+    text-align: center;
+    position:relative; left:0%; top: -70px;
+
+
+}
+
+.testimonial p{
+    text-align: center;
+    position:relative; left:0%; top: -70px;
+
+}
+
+
+
